@@ -13,7 +13,7 @@ const HomePage = () => {
         <Intro/>
         <div className="divde">
         <div className="head">
-          Bride & Groom
+          <p>Bride & Groom</p>
         </div>
         </div>
 
@@ -22,7 +22,7 @@ const HomePage = () => {
 
         <div className="divde">
         <div className="head">
-          Date and Time
+          <p>Date and Time</p>
         </div>
         </div>
 
@@ -30,7 +30,7 @@ const HomePage = () => {
 
         <div className="divde">
         <div className="head">
-          Location
+          <p>Location</p>
         </div>
         </div>
 
@@ -38,7 +38,7 @@ const HomePage = () => {
 
         <div className="divde">
         <div className="head">
-          Gallery
+          <p>Gallery</p>
         </div>
         </div>
 

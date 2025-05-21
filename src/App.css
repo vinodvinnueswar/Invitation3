@@ -22,6 +22,7 @@ body{
     background: rgb(10,34,0);
     background: linear-gradient(167deg, rgba(10,34,0,1) 0%, rgba(44,82,4,1) 96%);
     box-shadow: 2px 2px 9px 9px  rgb(10,34,0);;
+    color: rgb(93, 5, 5);
 }
 
 
@@ -116,8 +117,8 @@ body{
 }
 .head{
     display: flex;
-    color: rgba(10,34,0,1) ;
-    font-size: 25px;
+    color: rgb(93, 5, 5);
+    font-size: 26px;
     
 }
 
@@ -348,6 +349,10 @@ border-radius: 8px;
     border-radius: 6px;
 
 }
+.Button a{
+    text-decoration: none;
+    color: maroon;
+}
 
 /* Gallery */
 .Gallery_Container{
@@ -382,34 +387,1894 @@ border-radius: 8px;
 
 /* Contacts */
 
-.social_Share{
-    margin-top: 40px;
+.wish{
+    margin-top: -60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    box-shadow: 2px 2px 6px 6px  goldenrod;
+    width: 50vw;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+   color: rgb(93, 5, 5);;;
+  
+  }
+  
+  .social_Share{
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 50vw;
   padding: 80px;
-  color: beige;
   font-size: 20px;
-}
-
-.details{
+ color: beige;
+  background: rgb(10,34,0);
+  background: linear-gradient(167deg, rgba(10,34,0,1) 0%, rgba(44,82,4,1) 96%);
+  box-shadow: 2px 2px 9px 9px  rgb(10,34,0);;
+  }
+  .network{
+    margin-top: 10px;
+    display: flex;
+  
+  }
+  .network img{
+    height: 34px;
+  }
+  .network .whatsapp img{
+    margin-top: -2px;
+    height: 37px;
+  }
+  
+  .details_1{
+    margin-top: -50px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-.details .p1{
+    margin-right: 250px;
+  }
+  .details_1 .p1{
+    margin-top: 110px;
     font-size: 35px;
-}
-.details a{
-    height: 40px;
-    width: 20%;
+    font-family: "Satisfy", cursive;
+  }
+  .details_1 a{
+    height: 50px;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 2px solid beige;
     border-radius: 5px;
     color: beige;
+    padding: 20px;
+    text-decoration: none;
+    
+  }
+  .details_1 a:hover{
+  background: rgb(93, 5, 5);
+  color: wheat;
+  }
+
+
+  /* Responsive Design */
+  @media (min-width:768px)and (max-width: 1200px) {
+    .Home{
+        height: 100%;
+        width: 100vw;
+        background: rgb(10,34,0);
+        background: linear-gradient(167deg, rgba(10,34,0,1) 0%, rgba(44,82,4,1) 96%);
+        box-shadow: 2px 2px 9px 9px  rgb(10,34,0);;
+        color: rgb(93, 5, 5);
+    }
+    
+    
+    /* Intro Page */
+    .Intro_Container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    .title h2{
+        margin: 30px;
+    }
+    .Gold_Mandal img{
+        margin-top: -290px;
+        height: 550px
+    }
+    .Gold_Mandal1 img{
+        height: 500px;
+        margin-top: 250px;
+        
+    }
+    .text_box img{
+        height: 500px;
+        margin-top: -70px;
+    }
+    .title {
+        font-size: 18px;
+        font-family: "Playwrite AU SA", cursive;
+        font-optical-sizing: auto;
+        color: beige;
+    }
+    .matter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-top: -370px;
+        font-size: 38px;
+        padding: 40px;
+        color: rgb(112, 74, 3) ;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+    
+    }
+    
+    .caption{
+        margin-top: 100px;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 25px;
+        font-family: "Libre Baskerville", serif;
+        font-style: normal;
+        color: beige;
+    }
+    .side_line_Arch img{
+        margin-top: -20px;
+        width: 550px;
+    }
+    
+    .background_ds{
+      
+    } 
+    .bg_1{
+        height: 550px;
+        width: 720px;
+    }
+    .bg_2 {
+        height: 550px;
+        width: 700px;
+        margin-top: -700px
+    }
+    .ring{
+        margin-top: -500px;
+        height: 100px;
+        width: 100px;
+    }
+    
+    /* DIVIDE */
+    .divde{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 100%;
+        background-color: beige;
+        box-shadow: 2px 2px 6px 6px  goldenrod;
+    }
+    .head{
+        display: flex;
+        color: rgb(93, 5, 5);
+        font-size: 26px;
+        
+    }
+    
+    /*  Bride */
+    .Bride_Container{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Bride_Container .flower img{
+    height: 500px;
+    width: 650px;
+    }
+    .Bride_img{
+        margin-top: -480px;
+        height: 350px;
+        width: 326px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: beige;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        box-shadow: 2px 2px 8px 8px black;
+    }
+    .Bride_img img{
+        margin-top: 30px;
+        height: 350px;
+        width: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    
+    }
+    .Bride_Content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .Bride_Content .name{
+        width: 350px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: burlywood;
+        border-radius: 8px ;
+        font-size: 20px;
+    }
+    .Bride_Content .qual{
+        width: 326px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: beige;
+        font-size: 20px;
+        padding: 12px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+    
+    }
+    
+    
+    /*  Groom */
+    .Groom_Container{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .Groom_Container .flower img{
+        height: 500px;
+        width: 650px;
+        }
+    .Groom_img{
+            margin-top: -480px;
+            height: 380px;
+            width: 326px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: beige;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            box-shadow: 2px 2px 8px 8px black;
+     }   
+    
+     .Groom_img img{
+        margin-top: 30px;
+        height: 380px;
+        width: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    
+    }
+    .Groom_Content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .Groom_Content .name{
+        width: 350px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: burlywood;
+        border-radius: 8px ;
+        font-size: 20px;
+    }
+    .Groom_Content .qual{
+        width: 326px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: beige;
+        font-size: 20px;
+        padding: 12px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        margin-bottom: 30px;
+    
+    }
+    
+    /* Date and Time */
+    .Date_container{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        color: beige;
+        padding: 40px;
+    }
+    .Date_container .calender{
+         display: flex;
+         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    
+    }
+    .calender p{
+        font-size: 35px;
+    }
+    .Date_container .Time{
+        margin-top: 40px;
+        display: flex;
+         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .Time p{
+        font-size: 20px;
+    }
+    .Date_container .Location{
+        margin-top: 40px;
+        display: flex;
+         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .Location p{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .floral_desgin img{
+        margin-top: -70px;
+        height: 150px;
+        width: 600px;
+    }
+    .floral_img img{
+        margin-top: -60px;
+        height: 250px;
+        width: 450px;
+        margin-bottom: -44px;
+        padding-right: 80px;
+    }
+    
+    /* Map Location */
+    .Location_container{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .Location_container .map {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 418px;
+        width: 65%;
+        background: #599b2a;
+    background: linear-gradient(90deg, rgba(89, 155, 42, 1) 0%, rgba(97, 207, 143, 1) 100%, rgba(237, 221, 83, 1) 100%);
+    border-radius: 8px;
+     
+    }
+    .Location_container .map iframe{
+        height: 400px;
+        border-radius: 8px;
+    
+    }
+    .Button{
+        margin-top: -3px;
+        height: 50px;
+        width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: beige;
+        font-size: 20px;
+        border-radius: 6px;
+    
+    }
+    .Button a{
+        text-decoration: none;
+        color: maroon;
+    }
+    
+    /* Gallery */
+    .Gallery_Container{
+       width: 100%;
+       min-height: 100vh;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: 50px 8%;
+     
+       
+    }
+    .Gallery{
+        margin-top: 40px;
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+         -webkit-column-width:20% ;
+         -moz-column-width: 13%;
+        column-width: 13%;
+        padding: 0 12px;
+    }
+    
+    .images img{
+        height: 100%;
+        width: 100%;
+        border: 3px solid beige;
+    }
+    .images .active img{
+        border: 2px solid wheat;
+    }
+    
+    /* Contacts */
+    
+    .wish{
+        margin-top: -290px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: beige;
+        box-shadow: 2px 2px 6px 6px  goldenrod;
+        width: 100vw;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        font-family: "Bodoni Moda", serif;
+        font-optical-sizing: auto;
+       color: rgb(93, 5, 5);;;
+      
+      }
+      
+      .social_Share{
+        margin-top: -30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+        width: 100vw;
+      padding: 80px;
+      font-size: 20px;
+     color: beige;
+      background: rgb(10,34,0);
+      background: linear-gradient(167deg, rgba(10,34,0,1) 0%, rgba(44,82,4,1) 96%);
+      box-shadow: 2px 2px 9px 9px  rgb(10,34,0);;
+      }
+      .network{
+        margin-top: 10px;
+        display: flex;
+      
+      }
+      .network img{
+        height: 34px;
+      }
+      .network .whatsapp img{
+        margin-top: -2px;
+        height: 37px;
+      }
+      
+      .details_1{
+        margin-top: -50px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 250px;
+      }
+      .details_1 .p1{
+        margin-top: 110px;
+        font-size: 35px;
+        font-family: "Satisfy", cursive;
+      }
+      .details_1 a{
+        height: 50px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid beige;
+        border-radius: 5px;
+        color: beige;
+        padding: 20px;
+        text-decoration: none;
+        
+      }
+      .details_1 a:hover{
+      background: rgb(93, 5, 5);
+      color: wheat;
+      }
+
+  }
+
+
+  @media (min-width:768px) and (max-width: 1024px){
+
+    .Home{
+        height: 100%;
+        width: 100vw;
+        background: rgb(10,34,0);
+        background: linear-gradient(167deg, rgba(10,34,0,1) 0%, rgba(44,82,4,1) 96%);
+        box-shadow: 2px 2px 9px 9px  rgb(10,34,0);;
+        color: rgb(93, 5, 5);
+    }
+    
+    
+    /* Intro Page */
+    .Intro_Container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    .title h2{
+        margin: 30px;
+    }
+    .Gold_Mandal img{
+        margin-top: -290px;
+        height: 550px
+    }
+    .Gold_Mandal1 img{
+        height: 500px;
+        margin-top: 250px;
+        
+    }
+    .text_box img{
+        height: 500px;
+        margin-top: -70px;
+    }
+    .title {
+        font-size: 18px;
+        font-family: "Playwrite AU SA", cursive;
+        font-optical-sizing: auto;
+        color: beige;
+    }
+    .matter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-top: -370px;
+        font-size: 38px;
+        padding: 40px;
+        color: rgb(112, 74, 3) ;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+    
+    }
+    
+    .caption{
+        margin-top: 100px;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 25px;
+        font-family: "Libre Baskerville", serif;
+        font-style: normal;
+        color: beige;
+    }
+    .side_line_Arch img{
+        margin-top: -20px;
+        width: 550px;
+    }
+    
+    .background_ds{
+      
+    } 
+    .bg_1{
+        height: 550px;
+        width: 720px;
+    }
+    .bg_2 {
+        height: 550px;
+        width: 700px;
+        margin-top: -700px
+    }
+    .ring{
+        margin-top: -500px;
+        height: 100px;
+        width: 100px;
+    }
+    
+    /* DIVIDE */
+    .divde{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 100%;
+        background-color: beige;
+        box-shadow: 2px 2px 6px 6px  goldenrod;
+    }
+    .head{
+        display: flex;
+        color: rgb(93, 5, 5);
+        font-size: 26px;
+        
+    }
+    
+    /*  Bride */
+    .Bride_Container{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Bride_Container .flower img{
+    height: 500px;
+    width: 650px;
+    }
+    .Bride_img{
+        margin-top: -480px;
+        height: 350px;
+        width: 326px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: beige;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        box-shadow: 2px 2px 8px 8px black;
+    }
+    .Bride_img img{
+        margin-top: 30px;
+        height: 350px;
+        width: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    
+    }
+    .Bride_Content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .Bride_Content .name{
+        width: 350px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: burlywood;
+        border-radius: 8px ;
+        font-size: 20px;
+    }
+    .Bride_Content .qual{
+        width: 326px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: beige;
+        font-size: 20px;
+        padding: 12px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+    
+    }
+    
+    
+    /*  Groom */
+    .Groom_Container{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .Groom_Container .flower img{
+        height: 500px;
+        width: 650px;
+        }
+    .Groom_img{
+            margin-top: -480px;
+            height: 380px;
+            width: 326px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: beige;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            box-shadow: 2px 2px 8px 8px black;
+     }   
+    
+     .Groom_img img{
+        margin-top: 30px;
+        height: 380px;
+        width: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    
+    }
+    .Groom_Content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .Groom_Content .name{
+        width: 350px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: burlywood;
+        border-radius: 8px ;
+        font-size: 20px;
+    }
+    .Groom_Content .qual{
+        width: 326px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: beige;
+        font-size: 20px;
+        padding: 12px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        margin-bottom: 30px;
+    
+    }
+    
+    /* Date and Time */
+    .Date_container{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        color: beige;
+        padding: 40px;
+    }
+    .Date_container .calender{
+         display: flex;
+         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    
+    }
+    .calender p{
+        font-size: 35px;
+    }
+    .Date_container .Time{
+        margin-top: 40px;
+        display: flex;
+         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .Time p{
+        font-size: 20px;
+    }
+    .Date_container .Location{
+        margin-top: 40px;
+        display: flex;
+         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .Location p{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .floral_desgin img{
+        margin-top: -70px;
+        height: 150px;
+        width: 600px;
+    }
+    .floral_img img{
+        margin-top: -60px;
+        height: 250px;
+        width: 450px;
+        margin-bottom: -44px;
+        padding-right: 80px;
+    }
+    
+    /* Map Location */
+    .Location_container{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .Location_container .map {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 418px;
+        width: 65%;
+        background: #599b2a;
+    background: linear-gradient(90deg, rgba(89, 155, 42, 1) 0%, rgba(97, 207, 143, 1) 100%, rgba(237, 221, 83, 1) 100%);
+    border-radius: 8px;
+     
+    }
+    .Location_container .map iframe{
+        height: 400px;
+        width: 500px;
+        border-radius: 8px;
+    
+    }
+    .Button{
+        margin-top: -3px;
+        height: 50px;
+        width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: beige;
+        font-size: 20px;
+        border-radius: 6px;
+    
+    }
+    .Button a{
+        text-decoration: none;
+        color: maroon;
+    }
+    
+    /* Gallery */
+    .Gallery_Container{
+       width: 100%;
+       min-height: 100vh;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: 50px 8%;
+     
+       
+    }
+    .Gallery{
+        margin-top: 40px;
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+         -webkit-column-width:20% ;
+         -moz-column-width: 13%;
+        column-width: 13%;
+        padding: 0 12px;
+    }
+    
+    .images img{
+        height: 100%;
+        width: 100%;
+        border: 3px solid beige;
+    }
+    .images .active img{
+        border: 2px solid wheat;
+    }
+    
+    /* Contacts */
+    
+    .wish{
+        margin-top: -200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: beige;
+        box-shadow: 2px 2px 6px 6px  goldenrod;
+        width: 100vw;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        font-family: "Bodoni Moda", serif;
+        font-optical-sizing: auto;
+       color: rgb(93, 5, 5);;;
+      
+      }
+      
+      .social_Share{
+        margin-top: -40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+        width: 100vw;
+      padding: 80px;
+      font-size: 20px;
+     color: beige;
+      background: rgb(10,34,0);
+      background: linear-gradient(167deg, rgba(10,34,0,1) 0%, rgba(44,82,4,1) 96%);
+      box-shadow: 2px 2px 9px 9px  rgb(10,34,0);;
+      }
+      .network{
+        margin-top: 10px;
+        display: flex;
+      
+      }
+      .network img{
+        height: 34px;
+      }
+      .network .whatsapp img{
+        margin-top: -2px;
+        height: 37px;
+      }
+      
+      .details_1{
+        margin-top: -50px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 250px;
+      }
+      .details_1 .p1{
+        margin-top: 110px;
+        font-size: 35px;
+        font-family: "Satisfy", cursive;
+      }
+      .details_1 a{
+        height: 50px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid beige;
+        border-radius: 5px;
+        color: beige;
+        padding: 20px;
+        text-decoration: none;
+        
+      }
+      .details_1 a:hover{
+      background: rgb(93, 5, 5);
+      color: wheat;
+      }
+  }
+
+
+
+@media (min-width:576px)and (max-width: 768px) {
+    .Home{
+        height: 100%;
+        width: 100vw;
+        background: rgb(10,34,0);
+        background: linear-gradient(167deg, rgba(10,34,0,1) 0%, rgba(44,82,4,1) 96%);
+        box-shadow: 2px 2px 9px 9px  rgb(10,34,0);;
+        color: rgb(93, 5, 5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    /* Intro Page */
+    .Intro_Container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    .title h2{
+        margin: 30px;
+    }
+    .Gold_Mandal img{
+        margin-top: -290px;
+        height: 550px
+    }
+    .Gold_Mandal1 img{
+        height: 500px;
+        margin-top: 250px;
+        
+    }
+    .text_box img{
+        height: 500px;
+        margin-top: -70px;
+    }
+    .title {
+        font-size: 18px;
+        font-family: "Playwrite AU SA", cursive;
+        font-optical-sizing: auto;
+        color: beige;
+    }
+    .matter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-top: -370px;
+        font-size: 38px;
+        padding: 40px;
+        color: rgb(112, 74, 3) ;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+    
+    }
+    
+    .caption{
+        margin-top: 100px;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 25px;
+        font-family: "Libre Baskerville", serif;
+        font-style: normal;
+        color: beige;
+    }
+    .side_line_Arch img{
+        margin-top: -20px;
+        width: 550px;
+    }
+    
+    .background_ds{
+      
+    } 
+    .bg_1{
+        height: 550px;
+        width: 720px;
+    }
+    .bg_2 {
+        height: 550px;
+        width: 700px;
+        margin-top: -700px
+    }
+    .ring{
+        margin-top: -500px;
+        height: 100px;
+        width: 100px;
+    }
+    
+    /* DIVIDE */
+    .divde{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 100%;
+        background-color: beige;
+        box-shadow: 2px 2px 6px 6px  goldenrod;
+    }
+    .head{
+        display: flex;
+        color: rgb(93, 5, 5);
+        font-size: 26px;
+        
+    }
+    
+    /*  Bride */
+    .Bride_Container{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Bride_Container .flower img{
+    height: 500px;
+    width: 650px;
+    }
+    .Bride_img{
+        margin-top: -480px;
+        height: 350px;
+        width: 326px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: beige;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        box-shadow: 2px 2px 8px 8px black;
+    }
+    .Bride_img img{
+        margin-top: 30px;
+        height: 350px;
+        width: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    
+    }
+    .Bride_Content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .Bride_Content .name{
+        width: 350px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: burlywood;
+        border-radius: 8px ;
+        font-size: 20px;
+    }
+    .Bride_Content .qual{
+        width: 326px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: beige;
+        font-size: 20px;
+        padding: 12px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+    
+    }
+    
+    
+    /*  Groom */
+    .Groom_Container{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .Groom_Container .flower img{
+        height: 500px;
+        width: 650px;
+        }
+    .Groom_img{
+            margin-top: -480px;
+            height: 380px;
+            width: 326px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: beige;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            box-shadow: 2px 2px 8px 8px black;
+     }   
+    
+     .Groom_img img{
+        margin-top: 30px;
+        height: 380px;
+        width: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    
+    }
+    .Groom_Content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .Groom_Content .name{
+        width: 350px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: burlywood;
+        border-radius: 8px ;
+        font-size: 20px;
+    }
+    .Groom_Content .qual{
+        width: 326px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: beige;
+        font-size: 20px;
+        padding: 12px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        margin-bottom: 30px;
+    
+    }
+    
+    /* Date and Time */
+    .Date_container{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        color: beige;
+        padding: 40px;
+    }
+    .Date_container .calender{
+         display: flex;
+         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    
+    }
+    .calender p{
+        font-size: 35px;
+    }
+    .Date_container .Time{
+        margin-top: 40px;
+        display: flex;
+         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .Time p{
+        font-size: 20px;
+    }
+    .Date_container .Location{
+        margin-top: 40px;
+        display: flex;
+         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .Location p{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .floral_desgin img{
+        margin-top: -70px;
+        height: 150px;
+        width: 600px;
+    }
+    .floral_img img{
+        margin-top: -60px;
+        height: 250px;
+        width: 450px;
+        margin-bottom: -44px;
+        padding-right: 80px;
+    }
+    
+    /* Map Location */
+    .Location_container{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .Location_container .map {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 418px;
+        width: 65%;
+        background: #599b2a;
+    background: linear-gradient(90deg, rgba(89, 155, 42, 1) 0%, rgba(97, 207, 143, 1) 100%, rgba(237, 221, 83, 1) 100%);
+    border-radius: 8px;
+     
+    }
+    .Location_container .map iframe{
+        height: 400px;
+        border-radius: 8px;
+    
+    }
+    .Button{
+        margin-top: -3px;
+        height: 50px;
+        width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: beige;
+        font-size: 20px;
+        border-radius: 6px;
+    
+    }
+    .Button a{
+        text-decoration: none;
+        color: maroon;
+    }
+    
+    /* Gallery */
+    .Gallery_Container{
+        height: 50vh;
+       width: 100%;
+       min-height: 40%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: 50px 8%;
+       margin-bottom: 80px;
+     
+       
+    }
+    .Gallery{
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+         -webkit-column-width:10% ;
+         -moz-column-width: 5%;
+        column-width: 5%;
+        padding: 0 5px;
+
+    }
+
+    
+    .images img{
+        height: 200px;
+        width: 200px;
+        border: 3px solid beige;
+    }
+    .images .active img{
+        border: 2px solid wheat;
+    }
+    
+    /* Contacts */
+    
+    .wish{
+        margin-top: -140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: beige;
+        box-shadow: 2px 2px 6px 6px  goldenrod;
+        width: 100vw;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        font-family: "Bodoni Moda", serif;
+        font-optical-sizing: auto;
+       color: rgb(93, 5, 5);;;
+      
+      }
+      
+      .social_Share{
+        margin-top: -60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+        width: 100vw;
+      padding: 80px;
+      font-size: 20px;
+     color: beige;
+      background: rgb(10,34,0);
+      background: linear-gradient(167deg, rgba(10,34,0,1) 0%, rgba(44,82,4,1) 96%);
+      box-shadow: 2px 2px 9px 9px  rgb(10,34,0);;
+      }
+      .network{
+        margin-top: 10px;
+        display: flex;
+      
+      }
+      .network img{
+        height: 34px;
+      }
+      .network .whatsapp img{
+        margin-top: -2px;
+        height: 37px;
+      }
+      
+      .details_1{
+        margin-top: -50px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 250px;
+      }
+      .details_1 .p1{
+        margin-top: 110px;
+        font-size: 35px;
+        font-family: "Satisfy", cursive;
+      }
+      .details_1 a{
+        height: 50px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid beige;
+        border-radius: 5px;
+        color: beige;
+        padding: 20px;
+        text-decoration: none;
+        
+      }
+      .details_1 a:hover{
+      background: rgb(93, 5, 5);
+      color: wheat;
+      }
+}
+
+@media (min-width:0) and (max-width: 576px) {
+
+.Home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: rgb(10,34,0);
+    background: linear-gradient(167deg, rgba(10,34,0,1) 0%, rgba(44,82,4,1) 96%);
+    box-shadow: 2px 2px 9px 9px  rgb(10,34,0);;
+    color: rgb(93, 5, 5);
+}
+
+
+/* Intro Page */
+.Intro_Container{
+    height: 100%;
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.title h2{
+    margin: 30px;
+}
+.Gold_Mandal img{
+    margin-top: -290px;
+    height: 550px
+}
+.Gold_Mandal1 img{
+    height: 500px;
+    margin-top: 250px;
     
 }
-.details a:hover{
-  background: bisque;
-  color: #599b2a;
+.text_box img{
+    height: 300px;
+    margin-top: -30px;
+}
+.title {
+    font-size: 10px;
+    font-family: "Playwrite AU SA", cursive;
+    font-optical-sizing: auto;
+    color: beige;
+}
+.matter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: -250px;
+    font-size: 28px;
+    padding: 40px;
+    color: rgb(112, 74, 3) ;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+
+}
+
+.caption{
+    margin-top: 50px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    font-family: "Libre Baskerville", serif;
+    font-style: normal;
+    color: beige;
+}
+.side_line_Arch img{
+    margin-top: -20px;
+    width: 200px;
+}
+
+.background_ds{
+  
+} 
+.bg_1{
+    height: 550px;
+    width: 720px;
+}
+.bg_2 {
+    height: 550px;
+    width: 700px;
+    margin-top: -700px
+}
+.ring{
+    margin-top: -500px;
+    height: 100px;
+    width: 100px;
+}
+
+/* DIVIDE */
+.divde{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: beige;
+    box-shadow: 2px 2px 6px 6px  goldenrod;
+}
+.head{
+    display: flex;
+    color: rgb(93, 5, 5);
+    font-size: 26px;
+    
+}
+
+/*  Bride */
+.Bride_Container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Bride_Container .flower img{
+height: 500px;
+width: 450px;
+}
+.Bride_img{
+    margin-top: -480px;
+    height: 250px;
+    width: 255px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: beige;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 2px 2px 8px 8px black;
+}
+.Bride_img img{
+    margin-top: 30px;
+    height: 250px;
+    width: 240px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.Bride_Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.Bride_Content .name{
+    width: 265px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+    border-radius: 8px ;
+    font-size: 20px;
+}
+.Bride_Content .qual{
+    width: 250px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    font-size: 16px;
+    padding: 12px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+
+/*  Groom */
+.Groom_Container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.Groom_Container .flower img{
+    height: 500px;
+    width: 450px;
+    }
+.Groom_img{
+        margin-top: -480px;
+        height: 250px;
+        width: 255px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: beige;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        box-shadow: 2px 2px 8px 8px black;
+ }   
+
+ .Groom_img img{
+    margin-top: 30px;
+    height: 250px;
+    width: 240px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.Groom_Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.Groom_Content .name{
+    width: 286px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+    border-radius: 8px ;
+    font-size: 20px;
+}
+.Groom_Content .qual{
+    width: 265px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    font-size: 16px;
+    padding: 12px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-bottom: 30px;
+
+}
+
+/* Date and Time */
+.Date_container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: beige;
+    padding: 40px;
+}
+.Date_container .calender{
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+
+}
+.calender p{
+    font-size: 25px;
+}
+.Date_container .Time{
+    margin-top: 40px;
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.Time p{
+    font-size: 20px;
+}
+.Date_container .Location{
+    margin-top: 40px;
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.Location p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.floral_desgin img{
+    margin-top: -70px;
+    height: 120px;
+    width: 300px;
+}
+.floral_img img{
+    margin-top: -30px;
+    height: 180px;
+    width: 350px;
+    margin-bottom: -44px;
+    padding-right: 80px;
+}
+
+/* Map Location */
+.Location_container{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.Location_container .map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 50%;
+    background: #599b2a;
+background: linear-gradient(90deg, rgba(89, 155, 42, 1) 0%, rgba(97, 207, 143, 1) 100%, rgba(237, 221, 83, 1) 100%);
+border-radius: 8px;
+ 
+}
+.Location_container .map iframe{
+    height: 350px;
+    border-radius: 8px;
+
+}
+.Button{
+    margin-top: 48px;
+    height: 50px;
+    width: 51%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    font-size: 18px;
+    border-radius: 6px;
+
+}
+.Button a{
+    text-decoration: none;
+    color: maroon;
+}
+
+/* Gallery */
+.Gallery_Container{
+    margin-top: -100px;
+    height: 50vh;
+    width: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-left: 180px;
+ 
+   
+}
+.Gallery{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+     -webkit-column-width:0% ;
+     -moz-column-width: 1%;
+    column-width: 1%;
+    padding: 0 4px;
+}
+
+.images img{
+    height: 150px;
+    width: 150px;
+    border: 3px solid beige;
+}
+.images .active img{
+    border: 2px solid wheat;
+}
+
+/* Contacts */
+
+.wish{
+    margin-top: -60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    box-shadow: 2px 2px 6px 6px  goldenrod;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+   color: rgb(93, 5, 5);;;
+  
+  }
+  
+  .social_Share{
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 100%;
+  padding: 80px;
+  font-size: 20px;
+ color: beige;
+  background: rgb(10,34,0);
+  background: linear-gradient(167deg, rgba(10,34,0,1) 0%, rgba(44,82,4,1) 96%);
+  box-shadow: 2px 2px 9px 9px  rgb(10,34,0);;
+  }
+  .network{
+    margin-top: 10px;
+    display: flex;
+  
+  }
+  .network img{
+    height: 34px;
+  }
+  .network .whatsapp img{
+    margin-top: -2px;
+    height: 37px;
+  }
+  
+  .details_1{
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 80px;
+  }
+  .details_1 .p1{
+    width: 100%;
+    margin-top: 110px;
+    font-size: 25px;
+    font-family: "Satisfy", cursive;
+  }
+  .details_1 a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid beige;
+    border-radius: 5px;
+    color: beige;
+    padding: 20px;
+    text-decoration: none;
+    
+  }
+  .details_1 a:hover{
+  background: rgb(93, 5, 5);
+  color: wheat;
+  }
 
 }
