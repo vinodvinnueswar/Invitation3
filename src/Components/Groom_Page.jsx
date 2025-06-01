@@ -5,7 +5,7 @@ import flower from '../Images/flowers/flower6.png'
 const Groom_Page = () => {
   return (
     
-    <div className="Groom_Container">
+    <div className="Groom_Container" data-aos="fade-up">
              <div className="flower">
              <img src={flower} alt="" />
              </div>

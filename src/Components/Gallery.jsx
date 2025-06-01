@@ -35,7 +35,7 @@ const Gallery = () => {
 
   return (
     <div className="Gallery_Container">
-      <div className="Gallery">
+      <div className="Gallery" data-aos="flip-left">
         {data.map((item , index) => {
           return(
             <div className="images" key={index} >

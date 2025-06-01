@@ -6,8 +6,16 @@ import Date_Time from '../Components/Date_Time'
 import Loaction from '../Components/Loaction'
 import Gallery from '../Components/Gallery'
 import Contacts from '../Components/Contacts'
+import Aos from 'aos';
+import "aos/dist/aos.css";
+import { useEffect } from "react"
+
 
 const HomePage = () => {
+    useEffect(()=>{
+      Aos.init({duration:2000})
+    },[])
+  
   return (
     <div>
         <Intro/>

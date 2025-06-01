@@ -9,7 +9,8 @@ import Groom_Page from './Groom_Page'
 
 const Intro = () => {
   return (
-    <div className="Intro_Container">
+    <div className="Intro_Container" data-aos="fade-up"
+    data-aos-duration="3000">
         <div className="Gold_Mandal">
            <img src={GoldenArch} alt="" />
         </div>
