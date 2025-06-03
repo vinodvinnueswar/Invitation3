@@ -3,7 +3,8 @@
    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
    @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-
+   
+   @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -119,6 +120,7 @@ body{
     display: flex;
     color: rgb(93, 5, 5);
     font-size: 26px;
+    font-family: "Oswald", sans-serif;
     
 }
 
@@ -159,6 +161,7 @@ width: 650px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: "Oswald", sans-serif;
 
 }
 .Bride_Content .name{
@@ -226,6 +229,7 @@ width: 650px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: "Oswald", sans-serif;
 
 }
 .Groom_Content .name{
@@ -443,6 +447,9 @@ border-radius: 8px;
     margin-top: 110px;
     font-size: 35px;
     font-family: "Satisfy", cursive;
+  }
+  .details_1.p{
+    width: 100%;
   }
   .details_1 a{
     height: 50px;
@@ -1365,6 +1372,9 @@ border-radius: 8px;
         font-size: 35px;
         font-family: "Satisfy", cursive;
       }
+      .details_1.p{
+        width: 100%;
+      }
       .details_1 a{
         height: 50px;
         width: 50%;
@@ -1821,6 +1831,10 @@ border-radius: 8px;
         font-size: 35px;
         font-family: "Satisfy", cursive;
       }
+      .details_1.p{
+        width: 100%;
+        font-size: 18px;
+      }
       .details_1 a{
         height: 50px;
         width: 50%;
@@ -1847,7 +1861,8 @@ border-radius: 8px;
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 100%;
+    width: 100vw;
+    overflow: hidden;
     background: rgb(10,34,0);
     background: linear-gradient(167deg, rgba(10,34,0,1) 0%, rgba(44,82,4,1) 96%);
     box-shadow: 2px 2px 9px 9px  rgb(10,34,0);;
@@ -1859,6 +1874,7 @@ border-radius: 8px;
 .Intro_Container{
     height: 100%;
     width: 100%;
+    overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2156,11 +2172,12 @@ width: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 250px;
-    width: 50%;
-    background: #599b2a;
+    height: 360px;
+    width: 52%;
+    background: #e0e3de;
 background: linear-gradient(90deg, rgba(89, 155, 42, 1) 0%, rgba(97, 207, 143, 1) 100%, rgba(237, 221, 83, 1) 100%);
 border-radius: 8px;
+padding: 4px;
  
 }
 .Location_container .map iframe{
@@ -2169,9 +2186,9 @@ border-radius: 8px;
 
 }
 .Button{
-    margin-top: 48px;
+    margin-top: 2px;
     height: 50px;
-    width: 51%;
+    width: 52%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2265,13 +2282,12 @@ border-radius: 8px;
   }
   
   .details_1{
+    width: 70%;
     margin-top: -50px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 10px;
-    padding-left: 80px;
+    padding-left: 150px;
   }
   .details_1 .p1{
     width: 100%;
@@ -2279,17 +2295,22 @@ border-radius: 8px;
     font-size: 25px;
     font-family: "Satisfy", cursive;
   }
+  .details_1 p{
+    width: 100%;
+    font-size: 18px;
+  }
   .details_1 a{
     height: 100%;
-    width: 100%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 2px solid beige;
     border-radius: 5px;
     color: beige;
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
+    font-size: 18px;
     
   }
   .details_1 a:hover{

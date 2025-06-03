@@ -30,8 +30,8 @@ const Date_Time = () => {
      data-aos-easing="ease-in-sine">
         <h2>Location :</h2>
         <img src="" alt="" />
-        <p>Near Aditya venture <br /> 
-          col.Chruch , East Godavari.
+        <p>Near old Bhashyam School, <br /> 
+         Venkanababu Function Hall,<br /> East Godavari.
           </p>
       </div>
      <div className="floral_img">
