@@ -9,28 +9,31 @@ import Groom_Page from './Groom_Page'
 
 const Intro = () => {
   return (
-    <div className="Intro_Container" data-aos="fade-up"
-    data-aos-duration="3000">
+    <div className="Intro_Container" > 
         <div className="Gold_Mandal">
-           <img src={GoldenArch} alt="" />
+           <img src={GoldenArch} className='rotate' alt="" />
         </div>
          
-        <div className="title">
+        <div className="title" data-aos="fade-up"
+    data-aos-duration="3000">
             <h2>Wedding Invitation</h2>
         </div>
 
-        <div className="text_box">
+        <div className="text_box" data-aos="fade-up"
+    data-aos-duration="3000">
           <img src={textBox} alt="" />
         </div>
 
 
-        <div className="matter">
+        <div className="matter" data-aos="fade-down"
+    data-aos-duration="3000">
         <p>Jhon</p>
          <p>&</p>
         <p>Jenni</p> 
         </div>
 
-        <div className="caption">
+        <div className="caption" data-aos="fade-up"
+    data-aos-duration="3000">
           <p>We Invite You To Celebrate Our Wedding </p>
         </div>
         
